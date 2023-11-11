@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroveLab", "GroveLab\GroveLab.csproj", "{E0D2F6DC-1180-4458-993E-F0BDA45F188B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroveLab.Demo", "GroveLab.Demo\GroveLab.Demo.csproj", "{24BC22AE-3755-4823-92CA-BE4CE6B9193C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0D2F6DC-1180-4458-993E-F0BDA45F188B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D2F6DC-1180-4458-993E-F0BDA45F188B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D2F6DC-1180-4458-993E-F0BDA45F188B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D2F6DC-1180-4458-993E-F0BDA45F188B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24BC22AE-3755-4823-92CA-BE4CE6B9193C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24BC22AE-3755-4823-92CA-BE4CE6B9193C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24BC22AE-3755-4823-92CA-BE4CE6B9193C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24BC22AE-3755-4823-92CA-BE4CE6B9193C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D93D437-878A-4403-B2F5-FCB36D74E0BC}
+	EndGlobalSection
+EndGlobal
