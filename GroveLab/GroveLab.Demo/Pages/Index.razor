@@ -1,6 +1,8 @@
 ﻿@page "/"
 
-<Component1 />
+<Toggler @bind-Enabled="TogglerState" @bind-Enabled:after="TogglerUpdated" />
+
+<div>Toggler Is:@TogglerState</div>
 
 <PageTitle>Index</PageTitle>
 
@@ -9,3 +11,12 @@
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+@code {
+    private bool TogglerState { get; set; } = false;
+
+    private async Task TogglerUpdated()
+    {
+        Console.WriteLine("TogglerUpdated");
+    }
+}
