@@ -1,0 +1,11 @@
+/****************/
+/* ToggleButton */
+/****************/
+
+.ToggleButton-enabled {
+    border: 3px solid blue;
+}
+
+.ToggleButton-disabled {
+    border: 3px solid red;
+}

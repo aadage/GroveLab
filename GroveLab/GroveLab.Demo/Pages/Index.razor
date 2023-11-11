@@ -1,22 +1,11 @@
 ﻿@page "/"
 
-<Toggler @bind-Enabled="TogglerState" @bind-Enabled:after="TogglerUpdated" />
+<ToggleText @bind-Enabled="TogglerState" />
+
+<ToggleButton @bind-Enabled="TogglerState" />
 
 <div>Toggler Is:@TogglerState</div>
 
-<PageTitle>Index</PageTitle>
-
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
-
 @code {
     private bool TogglerState { get; set; } = false;
-
-    private async Task TogglerUpdated()
-    {
-        Console.WriteLine("TogglerUpdated");
-    }
 }
